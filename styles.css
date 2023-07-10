@@ -1,0 +1,261 @@
+/* INDEX */
+body, ul, li, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #444;
+  padding-top: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+section {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+
+
+
+/* LOGIN */
+body.login, form, input, button {
+  margin: 0;
+  padding: 0;
+}
+
+body.login {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #333;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  background-color: #777;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}
+
+
+
+/* SIGN UP */
+body.signup, form, input, button, a {
+  margin: 0;
+  padding: 0;
+}
+
+body.signup {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #333;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  background-color: #777;
+  color: #fff;
+  cursor: pointer;
+}
+
+.message {
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  color: #777;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}
+
+
+
+/* PROFILE */
+body.profile, ul, li, h1, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+body.profile {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile {
+  background-color: #333;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  background-color: #555;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .profile {
+    width: 100%;
+    max-width: 400px;
+  }
+}
